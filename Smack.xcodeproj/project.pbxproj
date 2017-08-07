@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0793EB2B1F380DDC007C2965 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793EB2A1F380DDC007C2965 /* AuthService.swift */; };
+		0793EB2D1F3817D8007C2965 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793EB2C1F3817D8007C2965 /* RoundedButton.swift */; };
 		07A6B86A1F36BF8500C26664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A6B8691F36BF8500C26664 /* AppDelegate.swift */; };
 		07A6B86F1F36BF8500C26664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A6B86D1F36BF8500C26664 /* Main.storyboard */; };
 		07A6B8711F36BF8500C26664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A6B8701F36BF8500C26664 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		0793EB2A1F380DDC007C2965 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0793EB2C1F3817D8007C2965 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		07A6B8661F36BF8500C26664 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A6B8691F36BF8500C26664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07A6B86E1F36BF8500C26664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				07A6B8861F36D75B00C26664 /* GradientView.swift */,
+				0793EB2C1F3817D8007C2965 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A6B8851F36CA8000C26664 /* ChannelVC.swift in Sources */,
+				0793EB2D1F3817D8007C2965 /* RoundedButton.swift in Sources */,
 				07A6B8831F36CA6A00C26664 /* ChatVC.swift in Sources */,
 				07A6B8911F37A77500C26664 /* CreateAccountVC.swift in Sources */,
 				0793EB2B1F380DDC007C2965 /* AuthService.swift in Sources */,
