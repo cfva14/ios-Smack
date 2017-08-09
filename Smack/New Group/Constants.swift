@@ -24,3 +24,7 @@ typealias CompletionHandler = (_ Sucess: Bool) -> ()
 // URL
 let BASE_URL = "https://gentle-citadel-20482.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
+let URL_LOGIN = "\(BASE_URL)account/login"
+
+// Headers
+let HEADER = ["Content-Type": "application/json; charset=utf-8"]
